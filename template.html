@@ -1,0 +1,21 @@
+<ion-view>
+    <ion-content>
+        <form 
+            name="vm.myForm" 
+            auto-save-form="vm.myFunction();"
+        >
+            <!-- FIELD -->
+            <label class="item item-input">
+                <div class="input-label">
+                    My Field
+                </div>
+                <input 
+                    type="text" 
+                    name="name" 
+                    ng-model="vm.name" 
+                    required
+                >
+            </label>
+        </form>
+    </ion-content>
+</ion-view>
